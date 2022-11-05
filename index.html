@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div class="drop">
+				<div class="drop__containert">
+					<div class="drop__main">
+						<div class="drop__img">
+							<img src="img/girl.svg" alt="girl">
+						</div>
+
+
+						<div class="drop__content">
+							<div class="drop__title title">
+								<h6 class="title__sub">Any questions?</h6>
+								<h1 class="title__main">Drop us a line</h1>
+							</div>
+							<form method="POST" enctype="multipart/form-data" action="#">
+								<div class="drop__line">
+									<div class="drop__one">
+										<label class="drop__lable" for="name-1">First Name*</label>
+										<input class="drop__input" id="name-1" autocomplete="off" placeholder="Your first name*"
+											name="name" type="text">
+
+										<label class="drop__lable" for="email-1">Email*</label>
+										<input class="drop__input" id="email-1" autocomplete="off"
+											placeholder="Your working email" name="mail" type="email">
+									</div>
+									<div class="drop__two">
+										<label class="drop__lable" for="last-1">Last Name*</label>
+										<input class="drop__input" id="last-1" autocomplete="off" placeholder="Your last name"
+											name="last" type="text">
+
+
+										<label class="drop__lable" for="phone-1">Phone</label>
+										<input class="drop__input" id="phone-1" autocomplete="off" placeholder="Your phone number"
+											name="phone" type="tel">
+									</div>
+								</div>
+								<div class="drop__text">
+									<label class="drop__lable" for="mess">Message*</label>
+									<textarea autocomplete="off" id="mess" placeholder="Your message" name="message"
+										class="drop__area"></textarea>
+								</div>
+
+								<div class="drop__send">
+									<div class="drop__checkbox checkbox">
+										<input id="check" autocomplete="off" type="checkbox" value="yes" name="check"
+											class="checkbox__input">
+										<label for="check" class="checkbox__label"><span class="checkbox__text">I agree to receive
+												communications from Createx Online School</span></label>
+									</div>
+
+
+									<button class="drop__button button" type="submit">Send message</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="fotter"></footer>
+	</div>
+</body>
+
+</html>
